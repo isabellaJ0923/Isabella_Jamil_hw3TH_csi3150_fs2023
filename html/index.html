@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="/dist/output.css" rel="stylesheet" />
+		<title>Bahamas</title>
+		<link rel="shortcut icon" href="/images/bahamas.jpeg" type="image/x-icon" />
+	</head>
+
+	<body class="overflow-x-hidden text-white">
+		<!-- Landing Page -->
+		<section class="h-screen w-screen relative" id="landing">
+			<img src="/images/bahamas.jpeg" alt="Bahamas" class="absolute inset-0 -z-10" />
+			<div class="absolute inset-0 bg-black opacity-70"></div>
+			<div class="absolute inset-0 flex justify-center items-center gap-14 flex-col">
+				<div class="relative">
+					<h1 class="absolute bg-gradient-to-b from-rose-500 to-rose-300 bg-clip-text text-5xl py-2 text-transparent font-bold lg:text-9xl">
+						Bahamas
+					</h1>
+					<h1 class="bg-gradient-to-b from-rose-500 blur-sm opacity-40 to-rose-300 bg-clip-text text-5xl py-2 text-transparent font-bold lg:text-9xl">
+						Bahamas
+					</h1>
+				</div>
+				<p class="text-4xl font-semibold font-serif">Tour and travel</p>
+				<a href="#info"><img class="w-20 hover:translate-y-4 transition-all" src="images/down.svg" alt="down arrow" /></a>
+			</div>
+		</section>
+		<!-- Info page -->
+		<section class="h-screen w-screen relative" id="info">
+			<img src="images/beach.avif" alt="Bahamas island" class="absolute inset-0 -z-10" />
+			<div class="absolute inset-0 bg-black opacity-70"></div>
+			<div class="absolute inset-0 flex justify-center items-center gap-14 mx-20">
+				<h2 class="text-7xl font-serif font-extrabold drop-shadow-lg w-2/5">Ever been to the Bahamas?</h2>
+				<div class="flex flex-col justify-center gap-5 w-3/5">
+					<p class="text-2xl font-semibold">
+						The Bahamas are a Caribbean country in the North Atlantic Ocean. The Bahamas are a chain of over 700 islands in the North Atlantic Ocean.
+                         About 30 of the islands are inhabited.The Bahamas is one of the richest countries in the America, however, the country is largely dependent on tourism. 
+                         Most people work in the services and tourism sectors in the Bahamas with about half of the Bahamians being employed in tourism.
+					</p>
+					<p class="text-2xl font-semibold">
+						The official language of the Bahamas is English, however, the Bahamian English is a mixture of British English with African and island slang.
+                        Nassau is known also for its stunning beaches and resorts such as the Atlantis Resort on Paradise Island.
+                        This resort is known for a huge waterpark and the world’s largest open-air marine habitat.
+					</p>
+					<a
+						href="https://www.kids-world-travel-guide.com/facts-about-the-bahamas.html"
+						class="bg-rose-500 hover:bg-rose-600 transition-all rounded-md p-2 text-2xl w-40 flex justify-center items-center"
+						>Read More</a
+					>
+				</div>
+			</div>
+		</section>
+		<!-- More images -->
+		<section class="h-screen w-screen relative">
+			<img src="/images/Pigs-Swimming-Bahamas.jpeg" alt="Bahamas island" class="absolute inset-0 -z-10" />
+			<div class="absolute inset-0 bg-black opacity-70"></div>
+			<div class="m-10 flex flex-col items-center justify-around gap-5 absolute inset-0">
+				<h2 class="text-5xl font-bold font-serif">Experience the stunning waters of Bahamas </h2>
+				<div class="flex gap-12 justify-center items-center w-full h-3/4">
+					<div class="w-1/4 h-full relative rounded-md ring-opacity-60 drop-shadow-lg ring-white ring-4">
+						<img class="absolute w-full h-full rounded-md" src="/images/bahamas1.jpeg" alt="Surfing image" />
+						<div class="absolute inset-0 bg-black opacity-30"></div>
+						<div class="absolute inset-0 flex flex-col items-start justify-end z-10 m-4">
+							<p class="text-4xl font-semibold">Beaches</p>
+							<img class="w-12 my-2 cursor-pointer" src="/images/bahamas1.jpeg" alt="see more" id="hideOnClick1" />
+							<!-- Show text when image clicked. -->
+							<p id="hiddenText1" class="hidden text-xl">
+								Bahamas stunning beaches offer from everything for everyone, every land and water sport under the sun, to gourmet dining at specialty restaurants,
+                                activities and amenities for all ages, and luxurious family-friendly suites.
+							</p>
+						</div>
+					</div>
+					<div class="w-1/4 h-full relative rounded-md ring-opacity-60 drop-shadow-lg ring-white ring-4">
+						<img class="absolute w-full h-full rounded-md" src="images/carousel2.avif" alt=Resorts" />
+						<div class="absolute inset-0 bg-black opacity-30"></div>
+						<div class="absolute inset-0 flex flex-col items-start justify-end z-10 m-4">
+							<p class="text-4xl font-semibold">Resorts</p>
+							<img class="w-12 my-2 cursor-pointer" src="images/down.svg" alt="see more" id="hideOnClick2" />
+							<!-- Show text when image clicked. -->
+							<p id="hiddenText2" class="hidden text-xl">
+								Bahamas has so many amazing resort options to choose from when deciding to stay for a vacation. 
+                                Any choice will be amazing and great!
+							</p>
+						</div>
+					</div>
+					<div class="w-1/4 h-full relative rounded-md ring-opacity-60 drop-shadow-lg ring-white ring-4">
+						<img class="absolute w-full h-full rounded-md" src="images/carousel3.avif" alt="Bahama scenery" />
+						<div class="absolute inset-0 bg-black opacity-30"></div>
+						<div class="absolute inset-0 flex flex-col items-start justify-end z-10 m-4">
+							<p class="text-4xl font-semibold">Sightseeing</p>
+							<img class="w-12 my-2 cursor-pointer" src="/images/Nassau.jpeg" alt="see more" id="hideOnClick3" />
+							<!-- Show text when image clicked. -->
+							<p id="hiddenText3" class="hidden text-xl">
+								You have to checkout Bahamas coolest, popular sighseeing spots! Some include boating, beaches,
+                                and so much more!
+							</p>
+						</div>
+					</div>
+				</div>
+				
+					href="https://www.kids-world-travel-guide.com/facts-about-the-bahamas.html"
+					class="bg-rose-500 hover:bg-rose-600 transition-all rounded-md p-2 text-2xl w-40 flex justify-center items-center"
+					>Read More</a
+				>
+			</div>
+		</section>
+		<!-- More information -->
+		<section class="h-screen w-screen relative overflow-hidden">
+			<img src="images/red.avif" alt="Bahamas" class="absolute inset-0 -z-10 h-fit" />
+			<div class="absolute inset-0 bg-black opacity-70"></div>
+			<div class="absolute inset-0 flex justify-center items-center gap-14 mx-20">
+				<h2 class="text-7xl font-serif font-extrabold drop-shadow-lg w-2/5">Want to go swimming, or boating in Bahamas!?</h2>
+				<div class="flex flex-col justify-center gap-10 w-3/5">
+					<div>
+						<h4 class="text-3xl font-semibold">What you should bring</h4>
+						<p class="text-xl">
+							When traveling to the Bahamas, pack light, beach, and your comfiest clothes. Wear your breathable clothes like shorts and T-shirts, comfy shoes,
+							swimwear, and lots and lots of sun sunscreen. Also bring a camera wheather its on your phone or an disposable and a water bottle for your stay!
+						</p>
+					</div>
+					<div>
+						<h4 class="text-3xl font-semibold"> Best Attire</h4>
+						<p class="text-xl">
+							Bahamas clothing style is very fun and beachy. For women sundresses, shorts,tanks and flip-flops are the best choices. For men shorts, tanks, t-shirts, and sandles are 
+                            are the best options. Both should pack gym shoes for physical activites and should pack a light jacket for the cool nights. 
+					</div>
+					<div>
+						<h4 class="text-3xl font-semibold">Best places to stay</h4>
+						<p class="text-xl">
+							Whether you’re into trendy shopping and chic eateries, world-class diving or low-key hideaways on secluded coves, the Bahamas has it all.
+                            This a popular region for good reason, too. Book your trip well in advance if you plan to visit over Christmas and New Year — the best places to stay in the Bahamas fill up fast!
+                            For diving and sailing, head to the Abaco Islands, where you’ll find caves and atolls linked by spectacular reefs.
+                             Whilst most of the islands in the group are too small to stay on, there are some very special hotels on Great Abaco and Little Abaco, as well as romantic retreats on select private islands, too. 
+                            Hikers and divers will also adore Andros, the largest and least explored of the Bahamian islands. Brimming with palm forests, wetlands and mangroves, as well as underwater caves and the world’s third largest barrier reef, the island is a real biodiversity hub.
+                            Long Island and Cat Island are brilliant picks for outdoorsy explorers, too. 
+                            If you’re dreaming of total relaxation, on the other hand, head to gorgeous Eleuthera or the 365 islands and cays of the Exumas, ideal for island-hopping and the ultimate barefoot luxury escapes.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Some stats and account of person -->
+		<section class="h-screen w-screen relative overflow-hidden">
+			<img src="images/turtle.avif" alt="Bahamas" class="absolute inset-0 -z-10 h-fit" />
+			<div class="absolute inset-0 bg-black opacity-70"></div>
+			<div class="absolute inset-0 mt-20 flex justify-around flex-col">
+				<div class="flex justify-around">
+					<div class="rounded-full w-40 h-40 bg-black bg-opacity-40 drop-shadow-lg flex justify-center items-center flex-col">
+						<p class="text-rose-500 text-4xl font-extrabold">Over 2,000</p>
+						<p class="">Beaches</p>
+					</div>
+					<div class="rounded-full w-40 h-40 bg-black bg-opacity-40 drop-shadow-lg flex justify-center items-center flex-col">
+						<p class="text-rose-500 text-4xl font-extrabold">374,000</p>
+						<p class="">Population</p>
+					</div>
+					<div class="rounded-full w-40 h-40 bg-black bg-opacity-40 drop-shadow-lg flex justify-center items-center flex-col">
+						<p class="text-rose-500 text-4xl font-extrabold">700</p>
+						<p class="">Contains _ Islands</p>
+					</div>
+					<div class="rounded-full w-40 h-40 bg-black bg-opacity-40 drop-shadow-lg flex justify-center items-center flex-col">
+						<p class="text-rose-500 text-4xl font-extrabold">800</p>
+						<p class="text-xl">Species of Fish</p>
+					</div>
+				</div>
+				<div class="flex flex-col justify-center items-center">
+					<img class="ring-4 ring-rose-500 ring-opacity-50 rounded-full w-40 h-40 xl:w-60 xl:h-60 object-cover" src="images/hawaii-tube.jpeg" alt="Country Coolatta in Bahamas" />
+					<p class="w-1/2 text-2xl mt-4">
+						I was so excited to go to the Bahamas and was blown away with the scenery that was literally in every direction. 
+                        The turqoise water, palm trees, beach barbecues and the shining sun makes for the ultimate vacation!
+                         I'm pretty much speechless about the Bahamas in general. You should definitely go and experience the beauty with your own eyes!
+					</p>
+					<p class="text-2xl">~ Country Coolatta</p>
+					<a href="#contact"><img class="w-20 hover:translate-y-4 transition-all" src="images/down.svg" alt="down arrow" /></a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact page -->
+		<section class="h-screen w-screen relative overflow-hidden" id="contact">
+			<img src="/images/bahamas1.jpeg" alt=" Bahamas" class="absolute inset-0 -z-10 h-fit" />
+			<div class="absolute inset-0 bg-black opacity-70"></div>
+			<div class="absolute inset-0 flex justify-center items-center">
+				<div class="w-1/3 flex flex-col">
+					<h3 class="text-rose-500 font-bold font-serif text-7xl drop-shadow-lg">Contact Us</h3>
+					<p class="text-2xl mt-8">Toll free: 123-456-7899</p>
+					<p class="text-2xl mt-1">Bahamas: 123-456-7899</p>
+					<p class="text-2xl mt-1">Fax: 123-456-7899</p>
+					<p class="text-2xl mt-1">Email: info@Bahamas.com</p>
+					<div class="flex gap-2 mt-10">
+						<a href="https://www.instagram.com/visitthebahamas/"><img src="/images/insta-logo.png" alt="Instagram" class="w-12" /></a>
+						<a href="hhttps://www.linkedin.com/company/bahamas/"><img src="/images/linkedin-icon-2048x2048-ya5g47j2.png" alt="Linkedin" class="w-12" /></a>
+						<a href="https://www.facebook.com/bahamaislands/"><img src="/images/Facebook_icon.svg.png" alt="Meta" class="w-12" /></a>
+						<a href=""></a><a href="https://twitter.com/VisitTheBahamas"><img src="/images/Logo_of_Twitter.svg.png" alt="Twitter" class="w-12" /></a>
+						<a href="https://www.pinterest.com/thebahamas/"><img src="/images/Pinterest-logo.png" alt="Pintrest" class="w-12" /></a>
+					</div>
+				</div>
+				<div class="w-1/3 flex flex-col gap-10">
+					<input type="text" placeholder="Name" class="bg-opacity-30 bg-black p-3 rounded-md ring-2 ring-white ring-opacity-40" />
+					<input type="text" placeholder="Email" class="bg-opacity-30 bg-black p-3 rounded-md ring-2 ring-white ring-opacity-40" />
+					<textarea type="text" placeholder="Message" class="h-36 bg-opacity-30 bg-black p-3 rounded-md ring-2 ring-white ring-opacity-40"></textarea>
+				</div>
+			</div>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>
