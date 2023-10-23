@@ -976,7 +976,7 @@ video {
 }
 
 .from-rose-500 {
-  --tw-gradient-from: #f43f5e var(--tw-gradient-from-position);
+  --tw-gradient-from: #2789a1 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(244 63 94 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
